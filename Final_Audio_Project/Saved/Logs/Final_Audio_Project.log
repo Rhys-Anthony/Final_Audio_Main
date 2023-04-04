@@ -1104,3 +1104,42 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.04-13.18.41:435][276]LogMeshUtilities: Finished distance field build in 2.0s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 1322 triangles, EditorSphere
 [2023.04.04-13.18.46:284][636]LogMeshUtilities: Finished distance field build in 4.8s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 1322 triangles, EditorSkySphere
 [2023.04.04-13.18.54:516][327]LogSlate: Took 0.001199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.04-14.08.47:301][585]LogShaderCompilers: Display: ================================================
+[2023.04.04-14.08.47:301][585]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Total job queries 6365, among them cache hits 12 (0.19%)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Tracking 6347 distinct input hashes that result in 4575 distinct outputs (72.08%)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: RAM used: 38.04 MB (0.04 GB) of 1638.40 MB (1.60 GB) budget. Usage: 2.32%
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Shaders Compiled: 6347
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Jobs assigned 6351, completed 6347 (99.94%)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Average time worker was idle: 17.56 s
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Time job spent in pending queue: average 315.06 s, longest 645.94 s
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Job execution time: average 5.17 s, max 51.47 s
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Job life time (pending + execution): average 320.43 s, max 646.55
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 683.98 s
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Jobs were issued in 685 batches (only local compilation was used), average 9.27 jobs/batch
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Average processing rate: 9.28 jobs/sec
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Total thread time: 3274.86 s
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Total thread preprocess time: 186.51 s
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Percentage time preprocessing: 5.70%
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Effective parallelization: 4.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 23.39 sec, max 48.94 sec, min 3.72 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.99 sec, max 7.10 sec, min 4.13 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.70 sec, max 7.77 sec, min 1.97 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.30 sec, max 4.11 sec, min 1.44 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  150 times, average 1.88 sec, max 2.33 sec, min 1.57 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                             FDeferredLightPS - 8.59% of total time (compiled  150 times, average 1.88 sec, max 2.33 sec, min 1.57 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 4.29% of total time (compiled    6 times, average 23.39 sec, max 48.94 sec, min 3.72 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                                   FTonemapCS - 3.43% of total time (compiled  420 times, average 0.27 sec, max 0.36 sec, min 0.21 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 3.15% of total time (compiled  256 times, average 0.40 sec, max 0.64 sec, min 0.27 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 2.91% of total time (compiled  128 times, average 0.74 sec, max 1.42 sec, min 0.53 sec)
+[2023.04.04-14.08.47:302][585]LogShaderCompilers: Display: ================================================
+[2023.04.04-14.09.00:648][903]LogViewport: Scene viewport resized to 888x545, mode Windowed.
+[2023.04.04-14.09.00:676][905]LogViewport: Scene viewport resized to 903x545, mode Windowed.
+[2023.04.04-14.09.00:712][907]LogViewport: Scene viewport resized to 933x545, mode Windowed.
+[2023.04.04-14.09.00:763][909]LogViewport: Scene viewport resized to 967x545, mode Windowed.
+[2023.04.04-14.09.00:815][911]LogViewport: Scene viewport resized to 1006x545, mode Windowed.
+[2023.04.04-14.09.00:888][913]LogViewport: Scene viewport resized to 1008x545, mode Windowed.
+[2023.04.04-14.09.01:092][933]LogViewport: Scene viewport resized to 1011x545, mode Windowed.
